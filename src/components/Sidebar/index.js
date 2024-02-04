@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
+  faUnsplash,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -57,6 +58,19 @@ const Sidebar = () => {
           className='close-icon' />
       </nav>
       <ul>
+      <li>
+          <a
+            href="https://unsplash.com/@parthanux"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon
+              icon={faUnsplash}
+              color="#4d4d4e"
+              className="anchor-icon"
+            />
+          </a>
+        </li>
         <li>
           <a
             href="https://www.linkedin.com/in/rishi-paul04/"
