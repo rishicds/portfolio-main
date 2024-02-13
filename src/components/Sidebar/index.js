@@ -6,6 +6,7 @@ import {
   faLinkedin,
   faGithub,
   faUnsplash,
+  faDropbox,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -49,6 +50,14 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          activeclassname="active"
+          className="portfolio-link"
+          to="/portfolio"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faDropbox} color="#4d4d4e" />
         </NavLink>
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
